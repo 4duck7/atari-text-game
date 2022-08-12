@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="jakub zielinski" />
+    <link rel="icon" href="https://www.atari.com/favicons/favicon-16x16.png?v=oLd48dGBOr" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <title>Atari | Dratewka the Shoemaker</title>
+
+    <script src="./assets/scripts/script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="opening">
+        <img id="play" src="./assets/img/titlescreen/play.jpg">
+        <img id="i0" src="./assets/img/titlescreen/opis_C.jpg">
+        <img id="i1" src="./assets/img/titlescreen/czołówka.jpg">
+        <img id="i2" src="./assets/img/titlescreen/opis_A.jpg">
+        <img id="i3" src="./assets/img/titlescreen/opis_B.jpg">
+    </div>
+
+    <div class="container">
+        <div id="scene" class="scene">
+            <p id='locationElement'></p>
+            <img id="locationImage" />
+            <img id="compass">
+            <p id="compassElement"></p>
+            <p id="locationDescElement"></p>
+            <p id="userEquipmentElement"></p> <br />
+            <p>What now? <input name="input" onblur="this.focus()" onkeyup="this.value = this.value.toUpperCase();"
+                    type="text" id="input" autofocus />
+            </p>
+            <p id="alertHandler"></p>
+            <audio id="hejnal" src="./assets/muzyka.mp3" preload="auto">
+                <audio id="klik" src="./assets/klik.mp3" preload="auto">
+        </div>
+    </div>
+
+</body>
+
+</html>

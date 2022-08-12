@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'atari';
+    src: url('../fonts/PressStart2P.ttf');
+}
+
+body {
+    font-family: 'atari', 'Consolas', sans-serif;
+    font-size: 8px;
+
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 500px;
+    height: 290px;
+
+}
+
+.scene {
+    color: white;
+    padding: 25px 25px;
+    width: auto;
+}
+
+.scene input {
+    width: 50%;
+    border: none;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: none;
+    color: white;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.scene input:focus {
+    outline: none;
+}
+
+.scene img {
+    width: 160px;
+}
+
+#audio {
+    display: none;
+}
+
+#compass {
+    margin: 20px;
+}
+
+#locationImage {
+    margin: 10px;
+}
+
+.opening {
+    position: absolute;
+    top: 0; left: 0;    
+    width: 100%; height: 100%;   
+    z-index: 999;
+}
+
+#play, #i0, #i1, #i2, #i3 {    
+    width: 100%; height: 100%;
+    object-fit: fill;
+}
+
+#hejnal, #klik {
+    display: none;
+}
+
