@@ -1,8 +1,13 @@
 # Dratewka the shoemaker Remake 👑
 
 Genre: Adventure / RPG
-Gameplay: Interactive fiction / text adventure
-Setting: Fantasy
+<br>Gameplay: Interactive fiction / text adventure
+<br>Setting: Fantasy
+
+Original title: [Dratewka the Shoemaker](https://www.mobygames.com/game/dratewka-the-shoemaker)
+<br>Release Date: 2008
+<br>Platform: Atari 8-bit
+<br>Developers: Krzysztof Ziembik; [Maciej Mendela](https://www.twitch.tv/maciej______)
 
 ## About the game
 
