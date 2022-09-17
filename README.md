@@ -17,6 +17,6 @@ The text in the game is supplemented by location graphics and directional compas
 
 ## School Assignment
 
-The project was a school assignment during my high school (2022) for my beloved teacher and a codeveloper for the original project - Maciej Mendela.
+The project was a vanilla JavaScript school assignment during my high school (2022) for my beloved teacher and a codeveloper for the original project - Maciej Mendela.
 The project is a pure JavaScript remake of the original Atari Game called "Dratewka the shoemaker" originally made by Krzysztof Ziembik and Maciej Mendela in 2008
 
